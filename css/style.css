@@ -96,7 +96,7 @@ hr
 .section-content {
     padding: 60px 0px;
     text-align: center;
-    color: gray;
+    color: #272727;
 }
 .section-title {
     font-size: 2rem;
@@ -104,7 +104,7 @@ hr
 }
 .caption {
     border: 1px solid lightgrey;
-      border-top-color: grey;
+      border-top-color: #272727;
       border-top-style: solid;
       border-top-width: 1px;
     padding: 28px 28px 12px 28px;
@@ -143,7 +143,7 @@ hr
 .menu-list .menu-li a
 {
     text-decoration: none;
-    color: grey;
+    color: #272727;
 }
 .menu-active a
 {
@@ -357,10 +357,38 @@ svg {
     font-weight: bold !important;
     border-radius: 7px;
 }
+.section-thumbnails
+{
+    color: #000000;
+}
+.caption h5, .card-testimonal h5
+{
+    font-weight: bold;
+}
 
 @media screen and (max-width: 600px) {
     .nav-height .navbar
     {
         padding: 0rem 0.6rem;
+    }
+    .footer-txt-input
+    {
+        width: 330px;
+        margin-right: 0rem !important;
+    }
+    .section-title
+    {
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .btn-offer
+    {
+        padding: 8px 10px !important;
+    }
+    .card-testimonal .section-desc
+    {
+        padding: 0px 0px 0px 19px;
     }
 }
