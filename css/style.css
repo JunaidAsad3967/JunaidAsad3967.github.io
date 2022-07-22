@@ -365,6 +365,10 @@ svg {
 {
     font-weight: bold;
 }
+.home-banner-area img
+{
+    width: 100vw;
+}
 
 @media screen and (max-width: 600px) {
     .nav-height .navbar
